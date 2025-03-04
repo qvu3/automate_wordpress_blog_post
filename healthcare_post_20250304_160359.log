@@ -1,0 +1,25 @@
+Starting healthcare post generation at Tue Mar  4 16:03:59 EST 2025
+Running healthcare post script...
+Running auto_post_wordpress.js with healthcare prompt and template...
+Generating content with prompt: Generate a new blog post on a random topic in Healthcare and Weightloss. Length: 300 - 500 words. Include SEO tags.
+Using Claude API with model: claude-3-5-sonnet-20240620
+Using healthcare prompt - treating as a single blog post
+Using healthcare blog post template...
+Posting to WordPress: Title: The Surprising Link Between Sleep Quality and Weight Management
+Using WordPress API URL: https://umedoc.com/wp-json/wp/v2/posts
+Authenticating as: quangvu
+Checking WordPress login status...
+Loaded cookies from /Users/Astorrevu/Desktop/Portfolio/Automation/auto_post_wordpress/.wp_cookies.json
+Creating post with cookie authentication...
+
+Creating a new draft post: "Title: The Surprising Link Between Sleep Quality and Weight Management"
+✅ Post created successfully!
+Post ID: 5057
+Post URL: https://umedoc.com/?p=5057
+Post successful!
+Successfully posted to WordPress!
+Post ID: 5057
+Post URL: https://umedoc.com/?p=5057
+Status: draft
+Healthcare post script completed successfully!
+Healthcare post generation completed at Tue Mar  4 16:04:14 EST 2025

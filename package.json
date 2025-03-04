@@ -1,0 +1,33 @@
+{
+  "name": "auto-post-wordpress",
+  "version": "1.0.0",
+  "description": "Automate generating blog posts with OpenAI or Claude and posting them to WordPress",
+  "main": "auto_post_wordpress.js",
+  "scripts": {
+    "start": "node auto_post_wordpress.js",
+    "login": "node wordfence_auth.js",
+    "manual-login": "node manual_cookies.js",
+    "check": "node check_wordpress.js",
+    "check-api": "node check_api_keys.js",
+    "healthcare": "node healthcare_post.js",
+    "cron-path": "./get_cron_path.sh",
+    "schedule-help": "echo 'To schedule posts, run: ./get_cron_path.sh'"
+  },
+  "keywords": [
+    "wordpress",
+    "openai",
+    "automation",
+    "blog"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "bin": {
+    "auto-post-wordpress": "./auto_post_wordpress.js"
+  }
+}
