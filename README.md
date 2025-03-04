@@ -144,7 +144,7 @@ If you cannot modify Wordfence settings, these alternatives are available:
 2. **REST API Authentication Plugins**: Consider installing plugins like JWT Authentication
 3. **XML-RPC API**: An older API that might not be affected by Wordfence
 
-For more details, see the [WordPress Authentication Setup Guide](WORDPRESS_AUTH_SETUP.md).
+For more details, see the [WordPress Guide](WORDPRESS_GUIDE.md).
 
 ## Troubleshooting
 
